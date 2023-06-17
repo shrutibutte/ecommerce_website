@@ -3,9 +3,9 @@ import React from "react";
 function Blog() {
   return <div>Blog
     <h1>
-      hello from shruti
+      hello from shruti                 
     </h1>
-    <p>ashdjsjsdsd</p>
+    <p>ashdjsjsdsd</p>                  
   </div>;
 }
 
