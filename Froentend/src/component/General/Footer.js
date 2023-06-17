@@ -1,6 +1,6 @@
 import React from "react";
-import logoimg from "../asset/img/logo.png";
-import payment from "../asset/img/payment-item.png";
+import logoimg from "../../asset/img/logo.png";
+import payment from "../../asset/img/payment-item.png";
 const Footer = () => {
   return (
     <footer className=" container-fluid footer spad fixed-bottom ">

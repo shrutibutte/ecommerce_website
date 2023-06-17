@@ -1,11 +1,10 @@
 import "./App.css";
-import Footer from "./component/Footer";
-import MenuComponent from "./component/Header";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Homepage from "./component/Pages/Homepage";
-import Shop from "./component/Pages/Shop";
-import Contact from "./component/Pages/Contact";
-import Blog from "./component/Pages/Blog";
+import Homepage from "./component/General/Homepage";
+import Shop from "./component/Shop/Shop";
+import Contact from "./component/General/Contact";
+import Blog from "./component/Blog/Blog";
 import Page from "./component/Pages/Page";
 
 function App() {
