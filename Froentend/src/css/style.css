@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logodesktop {
+  display: none;
+}
+.logomobile {
+  display: block;
+}
+
+.navItem li {
+  margin-right: 30px; /* Adjust the value to increase or decrease spacing */
+}
+.homeitem {
+  font-size: 14px;
+  color: #252525;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+@media only screen and (min-width: 768px) {
+  .logodesktop {
+    display: block;
+  }
+  .logomobile {
+    display: none;
+  }
+}
