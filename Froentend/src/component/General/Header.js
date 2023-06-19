@@ -105,7 +105,7 @@ function Header() {
               </li>
               {/* login icon hear */}
               <li class="nav-item">
-                <Link class="nav-link" to="/">
+                <Link class="nav-link" to="/login">
                   <icon class="fa fa-user" aria-hidden="true"></icon>
                   <span class="ms-1">Register or Sign in</span>
                 </Link>
@@ -328,7 +328,6 @@ function Header() {
           </nav>
         </div>
       </nav>
-      <Navbar></Navbar>
     </>
   );
 }
