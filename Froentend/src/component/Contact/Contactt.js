@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../General/Header";
 import Navbar from "../General/Navbar";
 import HeadingPage from "../General/HeadingPage";
-import "../../css/Contact.css";
+import "../../css/contact.css";
 import Footer from "../General/Footer";
 function Contactt() {
   return (
