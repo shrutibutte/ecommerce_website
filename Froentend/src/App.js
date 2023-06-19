@@ -11,7 +11,6 @@ import Login from "./component/Autho/Login";
 import BlogDetail from "./component/Pages/BlogDetail";
 import Checkout from "./component/Pages/Checkout";
 import ShoppingCart from "./component/Pages/ShoppingCart";
-import Contact from "./component/General/Contact";
 
 function App() {
   return (
@@ -33,7 +32,6 @@ function App() {
           <Route path="/Login" element={<Login></Login>} />
         </Routes>
       </Router>
-      {/* <Contact></Contact> */}
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import logoimg from "../../asset/img/logo.png";
 import payment from "../../asset/img/payment-item.png";
-import "../../css/footer.css";
 const Footer = () => {
   return (
     <footer className=" container-fluid footer  ">
@@ -24,7 +23,7 @@ const Footer = () => {
             </div>
             <div className="d-flex col-lg-4 col-md-6 col-sm-6 offset-lg-1">
               <div className="footer__widget">
-                <h5 className="" style={{fontWeight:"700"}} >Usefull Links</h5>
+                <h4>Usefull Links</h4>
                 <ul className="footer__links list-unstyled">
                   <li className="footer__link">
                     <a href="#">About Us</a>
@@ -46,7 +45,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="footer__widget" style={{ marginLeft: "38px",paddingTop:"30px" }}>
+              <div className=" footer__widget" style={{ marginLeft: "38px" }}>
                 <ul className="footer__links list-unstyled">
                   <li className="footer__link">
                     <a href="#">About Us</a>
