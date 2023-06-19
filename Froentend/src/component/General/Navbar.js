@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-sm bg-white navbar-light">
+      <nav class="navbar navbar-expand-sm bg-white  navbar-fixed-top navbar-light">
         <div class="container">
           <Link class="navbar-brand logodesktop" to="/">
             <img src={logoimg} alt="logo" />
@@ -22,10 +22,40 @@ function Navbar() {
                   SHOP
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link homeitem" to="/Page">
+              <li class="nav-item dropdown">
+                <Link
+                  class="nav-link homeitem"
+                  to="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   PAGES
+                  <i class="fa fa-angle-down ms-2" aria-hidden="true"></i>
                 </Link>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li>
+                    <Link class="dropdown-item" to="/PageDetail">
+                      Shop Detail
+                    </Link>
+                  </li>
+                  <li>
+                    <Link class="dropdown-item" to="/Flakes">
+                      Shoping Cart
+                    </Link>
+                  </li>
+                  <li>
+                    <Link class="dropdown-item" to="/Muesli">
+                      Checkout
+                    </Link>
+                  </li>
+                  <li>
+                    <Link class="dropdown-item" to="/Cookies">
+                      Blog Detail
+                    </Link>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <Link class="nav-link homeitem" to="/Blog">

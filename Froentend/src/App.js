@@ -5,7 +5,7 @@ import Homepage from "./component/Home/Homepage";
 import Shop from "./component/Shop/Shop";
 import Contact from "./component/General/Contact";
 import Blog from "./component/Blog/Blog";
-import Page from "./component/Pages/Page";
+import PageDetail from "./component/Pages/PageDetail";
 import Register from "./component/Autho/Register";
 import Login from "./component/Autho/Login";
 
@@ -18,7 +18,7 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Blog" element={<Blog />} />
-          <Route path="/Page" element={<Page></Page>} />
+          <Route path="/PageDetail" element={<PageDetail></PageDetail>} />
           <Route path="/Register" element={<Register></Register>} />
           <Route path="/Login" element={<Login></Login>} />
         </Routes>
