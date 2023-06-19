@@ -193,22 +193,22 @@ function Header() {
                         aria-labelledby="dropdownMenuButton"
                       >
                         <li>
-                          <Link class="dropdown-item" to="/PageDetail">
+                          <Link class="dropdown-item" to="/ProductDetail">
                             Shop Detail
                           </Link>
                         </li>
                         <li>
-                          <Link class="dropdown-item" to="/Flakes">
+                          <Link class="dropdown-item" to="/Shopcart">
                             Shoping Cart
                           </Link>
                         </li>
                         <li>
-                          <Link class="dropdown-item" to="/Muesli">
+                          <Link class="dropdown-item" to="/Checkout">
                             Checkout
                           </Link>
                         </li>
                         <li>
-                          <Link class="dropdown-item" to="/Cookies">
+                          <Link class="dropdown-item" to="/BLogdetail">
                             Blog Detail
                           </Link>
                         </li>

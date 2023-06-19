@@ -8,20 +8,23 @@ function TopSerchbar() {
         <div className="row">
           <div className="col-md-12">
             <div className="d-flex flex-column flex-md-row align-items-center justify-content-between">
+              <div className="d-flex flex-row border align-items-center">
+                <span
+                  className="me-2 p-2  w-100  "
+                  style={{ cursor: "pointer" }}
+                >
+                  All Categories
+                </span>
+                <i
+                  className="fa fa-caret-down me-2  p-2   "
+                  style={{ cursor: "pointer" }}
+                ></i>
+              </div>
               <form
                 action="#"
-                className="col-md-9 d-flex align-items-center mb-3 mb-md-0"
+                className="col-md-6 d-flex align-items-center mb-3 mb-md-0 my-2 my-md-0"
               >
                 <div className="input-group">
-                  <div className="d-flex border align-items-center">
-                    <span className="me-2 " style={{ padding: "4px 5px" }}>
-                      All Categories
-                    </span>
-                    <i
-                      className="fa fa-caret-down ms-2 "
-                      style={{ paddingRight: "3px" }}
-                    ></i>
-                  </div>
                   <input
                     type="text"
                     placeholder="What do you need?"

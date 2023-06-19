@@ -4,12 +4,13 @@ import Footer from "../General/Footer";
 import HeadingPage from "../General/HeadingPage";
 import "../../css/blog.css";
 import Header from "../General/Header";
+import TopSerchbar from "../Home/TopSerchbar";
 function Blog() {
   return (
     <div>
       <Header />
       <Navbar />
-
+      <TopSerchbar></TopSerchbar>
       <HeadingPage
         title1={"Blog"}
         title={"Home"}
