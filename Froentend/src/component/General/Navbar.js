@@ -36,7 +36,7 @@ function Navbar() {
                 </Link>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <li>
-                    <Link class="dropdown-item" to="/PageDetail">
+                    <Link class="dropdown-item" to="/ProductDetail">
                       Shop Detail
                     </Link>
                   </li>
